@@ -5,7 +5,7 @@ namespace Butterfly.Common
 {
     public static class AddressHelpers
     {
-        private const string defaultAddress = "http://localhost:9618";
+        private const string defaultAddress = "http://*:9618";
         private const string addressKey = "serveraddress";
 
         public static string GetApplicationUrl(string[] args)
